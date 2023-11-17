@@ -1,0 +1,44 @@
+.container{
+    height: 100vh;
+    width: 20%;
+    /* max-width: 6rem; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 0rem;
+    background-color: #1d1d41;
+}
+
+.sidebaritem{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.sidebaritem>svg{
+    fill: white;
+    width: 3rem;
+}
+
+.menu{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.dashboardlink{
+    padding-left: 10%;
+    text-decoration: none;
+}
+.accountlink{
+    padding-right: 5%;
+    text-decoration: none;
+}
+.dashboardiconimg{
+    width: 45%;
+    max-width: 5rem;
+    text-decoration: none;
+}
